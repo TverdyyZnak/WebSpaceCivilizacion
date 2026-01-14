@@ -1,63 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\WebAPI\\",
+  "WorkspaceRootPath": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\interfaces\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4DC0816-B080-48C0-AB86-F93B169C9687}|..\\WebDbContext\\WebDbContext.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\webdbcontext\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4DC0816-B080-48C0-AB86-F93B169C9687}|..\\WebDbContext\\WebDbContext.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\webdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\modules\\bustermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\entities\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\entities\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\enams\\chartypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\modules\\bedroommodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\modules\\medicalmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\modules\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\modules\\energymodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\enams\\materialtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\entities\\enams\\fraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\entities\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,255 +25,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IPlayerRepository.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Interfaces\\IPlayerRepository.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Interfaces\\IPlayerRepository.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Interfaces\\IPlayerRepository.cs",
-              "RelativeToolTip": "..\\Entities\\Interfaces\\IPlayerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T18:56:42.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CharTypes.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Enams\\CharTypes.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Enams\\CharTypes.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Enams\\CharTypes.cs",
-              "RelativeToolTip": "..\\Entities\\Enams\\CharTypes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T18:05:32.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BusterModule.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Modules\\BusterModule.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Modules\\BusterModule.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Modules\\BusterModule.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Modules\\BusterModule.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwA0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T18:02:24.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BedroomModule.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Modules\\BedroomModule.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Modules\\BedroomModule.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Modules\\BedroomModule.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Modules\\BedroomModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T17:55:47.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MedicalModule.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Modules\\MedicalModule.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Modules\\MedicalModule.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Modules\\MedicalModule.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Modules\\MedicalModule.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:59:24.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EnergyModule.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Modules\\EnergyModule.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Modules\\EnergyModule.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Modules\\EnergyModule.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Modules\\EnergyModule.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:51:35.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Module.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Modules\\Module.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Modules\\Module.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Modules\\Module.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Modules\\Module.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:48:13.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Base.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Base.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Base.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Base.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Base.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAmwBoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:25:30.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Inventory.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Inventory.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Inventory.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Inventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:20:27.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Armor.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Armor.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Armor.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Armor.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Armor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:17:49.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Weapon.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Weapon.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Weapon.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Weapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:14:40.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Fraction.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Enams\\Fraction.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Enams\\Fraction.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Enams\\Fraction.cs",
-              "RelativeToolTip": "..\\Entities\\Enams\\Fraction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:55:31.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MaterialType.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Enams\\MaterialType.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Enams\\MaterialType.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Enams\\MaterialType.cs",
-              "RelativeToolTip": "..\\Entities\\Enams\\MaterialType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:55:24.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Material.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Material.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Material.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Material.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Material.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:50:14.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Item.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Item.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Item.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Item.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:48:26.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Hero.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Hero.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Hero.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Hero.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Hero.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T14:34:29.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Player.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Player.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\Player.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\Player.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T14:12:18.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Constants.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Constants.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Constants.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Constants.cs",
-              "RelativeToolTip": "..\\Entities\\Constants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T13:59:22.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\User.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Classes\\User.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Entities\\Classes\\User.cs",
-              "RelativeToolTip": "..\\Entities\\Classes\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T13:46:25.104Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -323,6 +34,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Entities\\Constants.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Constants.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Entities\\Constants.cs",
+              "RelativeToolTip": "..\\Entities\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:11:44.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Entities\\Classes\\User.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Classes\\User.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Entities\\Classes\\User.cs",
+              "RelativeToolTip": "..\\Entities\\Classes\\User.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwB4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T16:28:10.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Entities\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Entities\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "..\\Entities\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T16:20:35.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\WebDbContext\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\WebDbContext\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\WebDbContext\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "..\\WebDbContext\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAA2wFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T16:18:54.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\WebDbContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\WebDbContext\\AppDbContext.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\WebDbContext\\AppDbContext.cs",
+              "RelativeToolTip": "..\\WebDbContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:14:35.944Z",
+              "EditorCaption": ""
             }
           ]
         }

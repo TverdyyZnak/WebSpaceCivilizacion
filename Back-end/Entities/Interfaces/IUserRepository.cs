@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Entities.Interfaces
 {
-    internal interface IUserRepository
+    public interface IUserRepository
     {
         Task<List<User>> GetAllUsers();
-        Task<User> GetById(int id);
+        Task<User> GetById(Guid id);
         Task<User> GetByLogin(string login);
-        Task<User> Create(User user);
-        Task<User> Update(Guid id, string login, string email, bool isAdmin);
-        Task<User> Delete(Guid id);
+        Task<Guid> Create(User user);
+        Task<Guid> Update(Guid id, string login, string email, bool isAdmin);
+        Task<Guid> Delete(Guid id);
     }
 }

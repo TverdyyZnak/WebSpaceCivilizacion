@@ -24,7 +24,7 @@ namespace Entities.Classes
             description = desc;
         }
 
-        public (Base? basePlayer, string error) CreateNewBase(Guid playerId, string name, string desc)
+        public static (Base? basePlayer, string error) CreateNewBase(Guid playerId, string name, string desc)
         {
             string errorMsg = string.Empty;
 

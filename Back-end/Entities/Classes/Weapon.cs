@@ -10,7 +10,7 @@ namespace Entities.Classes
     {
         public int addDmg { get; set; }
         public int minStrong { get; set; } = 1;
-        
+        public string itemType = "weapon";
 
         public Weapon(string name, int addDmg, int minStrong, string desc)
         {

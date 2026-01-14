@@ -28,7 +28,7 @@ namespace Entities.Classes
             this.money = money;
         }
 
-        public (Player? player, string error) CreateNewPlayer(Guid id, string name, string baseName, GameFraction gameFraction, int lvl = 0, int xp = 0, int money = 0)
+        public static (Player? player, string error) CreateNewPlayer(Guid id, string name, string baseName, GameFraction gameFraction, int lvl = 0, int xp = 0, int money = 0)
         {
             string errorMsg = string.Empty;
 

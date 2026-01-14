@@ -9,6 +9,7 @@ namespace Entities.Classes
 {
     public class Material : Item
     {
+
         public MaterialType materialType { get; set; }
         public int countOfMaterials { get; set; } = 1;
 

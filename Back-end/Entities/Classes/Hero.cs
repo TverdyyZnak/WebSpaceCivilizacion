@@ -10,30 +10,32 @@ namespace Entities.Classes
     {
         public Guid id { get;}
         public string name { get;} = string.Empty;
-        public int maxHp = 100;
-        public int currentHp = 100;
+        public int maxHp { get; } = 100;
+        public int currentHp { get; set; }
         public int strong { get; set; } = 1;
         public int agility { get; set; } = 1;
         public int intelect { get; set; } = 1;
         public int charisma { get; set; } = 1;
         
-        public bool isActive = true; // Живой или мёртвый
+        public bool isAlive = true; // Живой или мёртвый
         public bool inModule = false;
         public Armor? armor { get; set; }
         public Weapon? weapon { get; set; }
 
 
-        private Hero(string name, int strong = 1, int agility = 1, int intelect = 1, int charisma = 1)
+        private Hero(string name, int maxHp = 100, int strong = 1, int agility = 1, int intelect = 1, int charisma = 1)
         {
             Guid id = Guid.NewGuid();
             this.name = name;
+            this.maxHp = maxHp;
+            this.currentHp = maxHp;
             this.strong = strong;
             this.agility = agility;
             this.intelect = intelect;
             this.charisma = charisma;
         }
 
-        public (Hero? hero, string error) CreateNewHero(string name, int strong = 1, int agility = 1, int intelect = 1, int charisma = 1)
+        public static (Hero? hero, string error) CreateNewHero(string name, int strong = 1, int agility = 1, int intelect = 1, int charisma = 1)
         {
             string errorMsg = string.Empty;
 
@@ -80,13 +82,13 @@ namespace Entities.Classes
             if (currentHp < 0) 
             { 
                 currentHp = 0;
-                isActive = false;
+                isAlive = false;
             }
         }
 
         public void TakeHelp(int hp)
         {
-            isActive = true;
+            isAlive = true;
             currentHp += hp;
             if (currentHp > maxHp)
             {

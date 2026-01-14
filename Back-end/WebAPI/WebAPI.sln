@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI.csproj", "{A17115BB-0F3A-48CE-AAD0-C1D6B35F7118}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "..\Entities\Entities.csproj", "{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDbContext", "..\WebDbContext\WebDbContext.csproj", "{D4DC0816-B080-48C0-AB86-F93B169C9687}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F57A80C5-7D2D-45A1-98B1-B96F35CD0199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DC0816-B080-48C0-AB86-F93B169C9687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DC0816-B080-48C0-AB86-F93B169C9687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DC0816-B080-48C0-AB86-F93B169C9687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DC0816-B080-48C0-AB86-F93B169C9687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

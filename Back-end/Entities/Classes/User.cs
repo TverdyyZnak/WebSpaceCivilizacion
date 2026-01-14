@@ -14,16 +14,21 @@ namespace Entities.Classes
         public string email { get; } = string.Empty;
         public bool isAdmin { get; } = false;
 
-        private User(string login, string hPass, string email, bool isAdmin = false)
+        private User(Guid id, string login, string hPass, string email, bool isAdmin)
         {
-            id = Guid.NewGuid();
+            this.id = id;
             this.login = login;
             this.email = email;
             this.hPassword = hPass;
             this.isAdmin = isAdmin;
         }
 
-        public (User? user, string error) CreateNewUser(string login, string password, string email, bool isAdmin = false)
+        public void hhh()
+        {
+
+        }
+
+        public static (User user, string error) CreateNewUser(Guid id, string login, string password, string email, bool isAdmin)
         {
             string errorMsg = string.Empty;
 
@@ -36,16 +41,8 @@ namespace Entities.Classes
             {
                 errorMsg += "Text in Password field is too long; ";
             }
-            
-            if(errorMsg == string.Empty)
-            {
-                return (null, errorMsg);
-            }
-            else
-            {
-                return (new User(login, password, email, isAdmin), errorMsg);
-            }
+               
+            return (new User(id, login, password, email, isAdmin), errorMsg);
         }
-
     }
 }

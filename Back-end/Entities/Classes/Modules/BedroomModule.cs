@@ -9,7 +9,7 @@ namespace Entities.Classes.Modules
 {
     public class BedroomModule : Module
     {
-        public int addMaxHeros { get; } = 1;
+        public int addMaxHeros { get; }
 
         public BedroomModule(string name, string desc, int lvl = 1)
         {
