@@ -1,6 +1,0 @@
-D:\.Проекты\WebSpaceCivilizacion\Back-end\WebDbContext\obj\Debug\net8.0\WebDbContext.csproj.AssemblyReference.cache
-D:\.Проекты\WebSpaceCivilizacion\Back-end\WebDbContext\obj\Debug\net8.0\WebDbContext.GeneratedMSBuildEditorConfig.editorconfig
-D:\.Проекты\WebSpaceCivilizacion\Back-end\WebDbContext\obj\Debug\net8.0\WebDbContext.AssemblyInfoInputs.cache
-D:\.Проекты\WebSpaceCivilizacion\Back-end\WebDbContext\obj\Debug\net8.0\WebDbContext.AssemblyInfo.cs
-D:\.Проекты\WebSpaceCivilizacion\Back-end\WebDbContext\obj\Debug\net8.0\WebDbContext.csproj.CoreCompileInputs.cache
-D:\.Проекты\WebSpaceCivilizacion\Back-end\WebDbContext\obj\Debug\net8.0\WebDbContext.sourcelink.json

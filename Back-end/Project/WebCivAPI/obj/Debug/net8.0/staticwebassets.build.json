@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ls2WzEtj6q34kxrw6gCle5vwVST+4SWfJlb4LJN5TVg=",
+  "Source": "WebCivAPI",
+  "BasePath": "_content/WebCivAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

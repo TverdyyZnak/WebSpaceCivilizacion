@@ -1,0 +1,6 @@
+@WebCivAPI_HostAddress = http://localhost:5145
+
+GET {{WebCivAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

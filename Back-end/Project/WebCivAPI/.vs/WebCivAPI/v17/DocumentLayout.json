@@ -1,0 +1,209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webcivapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webcivapi\\contracts\\userrequestadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|solutionrelative:contracts\\userrequestadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webcivapi\\contracts\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|solutionrelative:contracts\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webcivapi\\contracts\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|solutionrelative:contracts\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E46600B-19F9-4073-87FE-5A232AA34AB4}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\entities\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E46600B-19F9-4073-87FE-5A232AA34AB4}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\entities\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webcivapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F61DF3A-A2D0-407B-AF29-B800C00A01CF}|..\\WebDbContext\\WebDbContext.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webdbcontext\\repository\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{162A9FC8-5270-4854-8CA3-B809E53D19F4}|..\\Application\\Application.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\application\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{162A9FC8-5270-4854-8CA3-B809E53D19F4}|..\\Application\\Application.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E46600B-19F9-4073-87FE-5A232AA34AB4}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\entities\\interfaces\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRequestAdmin.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Contracts\\UserRequestAdmin.cs",
+              "RelativeDocumentMoniker": "Contracts\\UserRequestAdmin.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Contracts\\UserRequestAdmin.cs",
+              "RelativeToolTip": "Contracts\\UserRequestAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:40:45.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRequest.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Contracts\\UserRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\UserRequest.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Contracts\\UserRequest.cs",
+              "RelativeToolTip": "Contracts\\UserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:25:42.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Contracts\\UserResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\UserResponse.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Contracts\\UserResponse.cs",
+              "RelativeToolTip": "Contracts\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:18:24.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:13:18.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:03:10.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerService.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Application\\Services\\PlayerService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\PlayerService.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Application\\Services\\PlayerService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\PlayerService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:57:55.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPlayerRepository.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Interfaces\\IPlayerRepository.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Interfaces\\IPlayerRepository.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Interfaces\\IPlayerRepository.cs",
+              "RelativeToolTip": "..\\Entities\\Interfaces\\IPlayerRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:44:21.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Classes\\Player.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Classes\\Player.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Classes\\Player.cs",
+              "RelativeToolTip": "..\\Entities\\Classes\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:41:41.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Classes\\User.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Classes\\User.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Classes\\User.cs",
+              "RelativeToolTip": "..\\Entities\\Classes\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:41:34.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerRepository.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebDbContext\\Repository\\PlayerRepository.cs",
+              "RelativeDocumentMoniker": "..\\WebDbContext\\Repository\\PlayerRepository.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebDbContext\\Repository\\PlayerRepository.cs",
+              "RelativeToolTip": "..\\WebDbContext\\Repository\\PlayerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:40:51.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:31:11.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
