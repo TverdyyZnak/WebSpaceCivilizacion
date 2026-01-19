@@ -1,0 +1,7 @@
+<h1>Ну ебать</h1>
+<div *ngFor="let n of node">
+  {{n.id}}
+  <h2>{{n.title}}</h2>
+  <p>Текст: {{n.content}}</p>
+  <small>Дата: {{n.date | date:'short'}}</small>
+</div>

@@ -1,26 +1,6 @@
 [
   {
     "ContainingType": "WebCivAPI.Controllers.UserController",
-    "Method": "GetUsers",
-    "RelativePath": "User",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "WebCivAPI.Contracts.UserResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebCivAPI.Controllers.UserController",
     "Method": "CreateUser",
     "RelativePath": "User",
     "HttpMethod": "POST",
@@ -67,6 +47,26 @@
     "ReturnTypes": [
       {
         "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebCivAPI.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "User/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebCivAPI.Contracts.UserResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

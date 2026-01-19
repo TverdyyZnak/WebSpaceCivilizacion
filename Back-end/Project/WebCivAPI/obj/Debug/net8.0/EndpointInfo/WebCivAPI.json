@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/User": {
+    "/User/All": {
       "get": {
         "tags": [
           "User"
@@ -32,7 +32,9 @@
             }
           }
         }
-      },
+      }
+    },
+    "/User": {
       "post": {
         "tags": [
           "User"

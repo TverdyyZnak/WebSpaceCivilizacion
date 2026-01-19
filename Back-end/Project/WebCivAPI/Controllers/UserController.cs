@@ -17,7 +17,7 @@ namespace WebCivAPI.Controllers
             _userService = userService;
         }
 
-        [HttpGet]
+        [HttpGet("All")]
         public async Task<ActionResult<UserResponse>> GetUsers()
         {
             var users = await _userService.GetAllUsers();
