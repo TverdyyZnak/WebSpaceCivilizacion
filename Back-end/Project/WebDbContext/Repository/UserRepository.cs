@@ -23,7 +23,6 @@ namespace WebDbContext.Repository
 
         public async Task<Guid> Create(User user)
         {
-            var hPass = Convert.ToHexString(SHA256.Create().ComputeHash(Encoding.ASCII.GetBytes(user.hPassword)));
             var userEntity = new UserEntity
             {
                 id = user.id,
@@ -57,14 +56,14 @@ namespace WebDbContext.Repository
         {
             var userEntity = await _context.userDbSet.AsNoTracking().ToListAsync();
             var users = userEntity.Select(u => User.CreateNewUser(u.id, u.login, u.hPassword, u.email, u.isAdmin).user).Where(u => u.id == id).ToList();
-            return users[0];
+            return users.First();
         }
 
-        public async Task<User> GetByLogin(string login)
+        public async Task<User?> GetByLogin(string login)
         {
             var userEntity = await _context.userDbSet.AsNoTracking().ToListAsync();
             var users = userEntity.Select(u => User.CreateNewUser(u.id, u.login, u.hPassword, u.email, u.isAdmin).user).Where(u => u.login == login).ToList();
-            return users[0];
+            return users.FirstOrDefault();
         }
 
         public async Task<Guid> Update(Guid id, string login, string email, bool isAdmin)

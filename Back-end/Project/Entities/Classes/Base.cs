@@ -24,7 +24,7 @@ namespace Entities.Classes
             description = desc;
         }
 
-        public static (Base? basePlayer, string error) CreateNewBase(Guid playerId, string name, string desc)
+        public static (Base basePlayer, string error) CreateNewBase(Guid playerId, string name, string desc)
         {
             string errorMsg = string.Empty;
 
@@ -32,14 +32,9 @@ namespace Entities.Classes
             {
                 errorMsg += "Text in fields is too long; ";
             }
-            if(errorMsg.Length != 0)
-            {
-                return (null, errorMsg);
-            }
-            else
-            {
-                return (new Base(playerId, name, desc), errorMsg);
-            }
+            
+            return (new Base(playerId, name, desc), errorMsg);
+            
         }
     }
 }

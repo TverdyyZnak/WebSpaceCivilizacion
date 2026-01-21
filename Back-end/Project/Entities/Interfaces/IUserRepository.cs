@@ -11,7 +11,7 @@ namespace Entities.Interfaces
     {
         Task<List<User>> GetAllUsers();
         Task<User> GetById(Guid id);
-        Task<User> GetByLogin(string login);
+        Task<User?> GetByLogin(string login);
         Task<Guid> Create(User user);
         Task<Guid> Update(Guid id, string login, string email, bool isAdmin);
         Task<Guid> Delete(Guid id);

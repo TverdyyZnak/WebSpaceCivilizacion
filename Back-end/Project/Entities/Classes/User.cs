@@ -10,7 +10,7 @@ namespace Entities.Classes
     {
         public Guid id { get; }
         public string login { get; } = string.Empty;
-        public string hPassword { get; } = string.Empty;
+        public string hPassword { get; set;  } = string.Empty;
         public string email { get; } = string.Empty;
         public bool isAdmin { get; } = false;
 

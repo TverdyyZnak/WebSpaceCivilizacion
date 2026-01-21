@@ -143,3 +143,12 @@ D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\obj\Debug\net
 D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\bin\Debug\net8.0\Application.dll
 D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\bin\Debug\net8.0\Application.pdb
 D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\.Проекты\WebSpaceCivilizacion\Back-end\Project\WebCivAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

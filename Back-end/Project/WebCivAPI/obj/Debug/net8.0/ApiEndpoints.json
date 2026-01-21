@@ -1,5 +1,25 @@
 [
   {
+    "ContainingType": "WebCivAPI.Controllers.ModulesController",
+    "Method": "GetModulesDescription",
+    "RelativePath": "Modules/description",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebCivAPI.Contracts.ModulesContracts.ModuleResponse, WebCivAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "WebCivAPI.Controllers.UserController",
     "Method": "CreateUser",
     "RelativePath": "User",
@@ -9,7 +29,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "WebCivAPI.Contracts.UserRequest",
+        "Type": "WebCivAPI.Contracts.UsersContracts.UserRequest",
         "IsRequired": true
       }
     ],
@@ -40,7 +60,33 @@
       },
       {
         "Name": "request",
-        "Type": "WebCivAPI.Contracts.UserRequestAdmin",
+        "Type": "WebCivAPI.Contracts.UsersContracts.UserRequestAdmin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebCivAPI.Controllers.UserController",
+    "Method": "DeleteUserById",
+    "RelativePath": "User/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -66,7 +112,85 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "WebCivAPI.Contracts.UserResponse",
+        "Type": "WebCivAPI.Contracts.UsersContracts.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebCivAPI.Controllers.UserController",
+    "Method": "GetUserById",
+    "RelativePath": "User/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebCivAPI.Contracts.UsersContracts.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebCivAPI.Controllers.UserController",
+    "Method": "GetUserByLogin",
+    "RelativePath": "User/ByLogin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebCivAPI.Contracts.UsersContracts.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebCivAPI.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "auth",
+        "Type": "WebCivAPI.Contracts.UsersContracts.AuthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",

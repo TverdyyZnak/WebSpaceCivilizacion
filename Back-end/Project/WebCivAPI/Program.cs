@@ -1,3 +1,5 @@
+using Application.Constans;
+using Application.Functions;
 using Application.Services;
 using Entities.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -26,6 +28,9 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IPlayerService, PlayerService>();
 builder.Services.AddScoped<IPlayerRepository, PlayerRepository>();
 
+builder.Services.AddSingleton<ModulesConst>();
+builder.Services.AddScoped<JwtCreator>();
+builder.Services.AddScoped<HashPassword>();
 
 var app = builder.Build();
 

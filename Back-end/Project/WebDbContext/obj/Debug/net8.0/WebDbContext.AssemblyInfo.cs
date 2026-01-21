@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebDbContext")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+745920db5eb9ff1951541d7fdf96cb9426578c2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5da8b35a544e08ec941705d64e802b610c52450a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebDbContext")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebDbContext")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
