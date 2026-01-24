@@ -1,4 +1,5 @@
 ﻿using Application.Constans;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using WebCivAPI.Contracts.ModulesContracts;
@@ -7,6 +8,7 @@ namespace WebCivAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class ModulesController : ControllerBase
     {
         private readonly ModulesConst _modulesConst;

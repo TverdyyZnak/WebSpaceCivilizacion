@@ -5,11 +5,12 @@ namespace Application.Services
     public interface IUserService
     {
         Task<Guid> CreateUser(User user);
-        Task<string> Login(string login, string password);
         Task<Guid> DeleteUser(Guid id);
         Task<List<User>> GetAllUsers();
         Task<User> GetUserById(Guid id);
         Task<User?> GetUserByLogin(string login);
+        string Logout();
+        Task<string> Login(string login, string password);
         Task<Guid> UpdateUser(Guid id, string login, string email, bool isAdmin);
     }
 }

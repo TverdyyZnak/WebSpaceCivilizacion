@@ -72,6 +72,12 @@ namespace WebCivAPI.Controllers
             return Ok(await _userService.Login(auth.login, auth.password));
         }
 
+        [HttpPost("Logout")]
+        public ActionResult<string> Logout()
+        {
+            return Ok(_userService.Logout());
+        }
+
         [HttpPut("{id:guid}")]
         public async Task<ActionResult<Guid>> AdminUpdateUser(Guid id, [FromBody] UserRequestAdmin request)
         {
@@ -86,5 +92,7 @@ namespace WebCivAPI.Controllers
             await _userService.DeleteUser(id);
             return Ok(id);
         }
+
+        
     }
 }

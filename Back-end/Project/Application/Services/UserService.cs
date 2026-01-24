@@ -1,6 +1,7 @@
 ﻿using Application.Functions;
 using Entities.Classes;
 using Entities.Interfaces;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +14,12 @@ namespace Application.Services
     {
         private readonly IUserRepository _userRepository;
         private readonly JwtCreator _jwtCreator;
-
-        public UserService(IUserRepository userRepository, JwtCreator jwtCreator)
+        private readonly IHttpContextAccessor _httpContext;
+        public UserService(IUserRepository userRepository, JwtCreator jwtCreator, IHttpContextAccessor context)
         {
             _userRepository = userRepository;
             _jwtCreator = jwtCreator;
-           
+            _httpContext = context;
         }
 
         public async Task<List<User>> GetAllUsers()
@@ -41,17 +42,27 @@ namespace Application.Services
                 return "Неверный логин или пароль";
             }
 
-            if(HashPassword.VerifyPassword(password, userInDb.hPassword))
+            if (HashPassword.VerifyPassword(password, userInDb.hPassword))
             {
-                return _jwtCreator.CreateJwt(userInDb);
+                string jwt = _jwtCreator.CreateJwt(userInDb);
+                _httpContext.HttpContext.Response.Cookies.Append("MCook", jwt);
+
+                return jwt;
             }
             else
             {
                 return "Неверный логин или пароль";
             }
-            
+
         }
 
+        public string Logout()
+        {
+
+            _httpContext.HttpContext.Response.Cookies.Delete("MCook");
+
+            return "Выход из системы";
+        }
 
         public async Task<User> GetUserById(Guid id)
         {

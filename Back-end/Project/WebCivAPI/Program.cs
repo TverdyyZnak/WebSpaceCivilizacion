@@ -32,6 +32,10 @@ builder.Services.AddSingleton<ModulesConst>();
 builder.Services.AddScoped<JwtCreator>();
 builder.Services.AddScoped<HashPassword>();
 
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddAuth();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -43,6 +47,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication(); // ÂÀÀÀÀÀÀÀÆÍÎÎÎÎÎÎ!!! Ñïåğâà UseAuthentication à çàòåì UseAuthorization!!!
 app.UseAuthorization();
 
 app.MapControllers();

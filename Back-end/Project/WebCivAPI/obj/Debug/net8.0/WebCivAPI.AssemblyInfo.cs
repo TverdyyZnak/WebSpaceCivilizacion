@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebCivAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5da8b35a544e08ec941705d64e802b610c52450a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c6589d65b7a162a0f66f4df9d7976fbaab902a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebCivAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebCivAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

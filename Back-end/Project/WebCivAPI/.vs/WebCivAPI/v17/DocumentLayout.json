@@ -3,23 +3,27 @@
   "WorkspaceRootPath": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E46600B-19F9-4073-87FE-5A232AA34AB4}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\entities\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{162A9FC8-5270-4854-8CA3-B809E53D19F4}|..\\Application\\Application.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{162A9FC8-5270-4854-8CA3-B809E53D19F4}|..\\Application\\Application.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\application\\functions\\jwtcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{162A9FC8-5270-4854-8CA3-B809E53D19F4}|..\\Application\\Application.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\application\\functions\\authextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webcivapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webcivapi\\controllers\\modulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|solutionrelative:controllers\\modulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E46600B-19F9-4073-87FE-5A232AA34AB4}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\entities\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{162A9FC8-5270-4854-8CA3-B809E53D19F4}|..\\Application\\Application.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F61DF3A-A2D0-407B-AF29-B800C00A01CF}|..\\WebDbContext\\WebDbContext.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webdbcontext\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{162A9FC8-5270-4854-8CA3-B809E53D19F4}|..\\Application\\Application.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\application\\functions\\hashpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E46600B-19F9-4073-87FE-5A232AA34AB4}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\entities\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -29,11 +33,14 @@
       "RelativeMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webcivapi\\contracts\\userscontracts\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|solutionrelative:contracts\\userscontracts\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E46600B-19F9-4073-87FE-5A232AA34AB4}|..\\Entities\\Entities.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\entities\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{162A9FC8-5270-4854-8CA3-B809E53D19F4}|..\\Application\\Application.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\application\\functions\\hashpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F61DF3A-A2D0-407B-AF29-B800C00A01CF}|..\\WebDbContext\\WebDbContext.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webdbcontext\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webcivapi\\contracts\\userscontracts\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADE0541-5DD9-46E3-ADF8-0D05E76B077B}|WebCivAPI.csproj|solutionrelative:contracts\\userscontracts\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F61DF3A-A2D0-407B-AF29-B800C00A01CF}|..\\WebDbContext\\WebDbContext.csproj|d:\\.\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webspacecivilizacion\\back-end\\project\\webdbcontext\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -55,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,7 +74,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "..\\Entities\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T19:06:00.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthExtensions.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Application\\Functions\\AuthExtensions.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Functions\\AuthExtensions.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Application\\Functions\\AuthExtensions.cs",
+              "RelativeToolTip": "..\\Application\\Functions\\AuthExtensions.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:14:43.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModulesController.cs",
+              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Controllers\\ModulesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ModulesController.cs",
+              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Controllers\\ModulesController.cs",
+              "RelativeToolTip": "Controllers\\ModulesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:10:26.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "..\\Entities\\Interfaces\\IUserRepository.cs",
@@ -80,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebDbContext\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "..\\WebDbContext\\Repository\\UserRepository.cs",
@@ -93,32 +139,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADgvyAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T15:43:32.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Interfaces\\IUserService.cs",
-              "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "..\\Entities\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T15:39:34.535Z",
+              "WhenOpened": "2026-01-21T15:43:32.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AuthRequest.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Contracts\\UsersContracts\\AuthRequest.cs",
               "RelativeDocumentMoniker": "Contracts\\UsersContracts\\AuthRequest.cs",
@@ -126,7 +160,8 @@
               "RelativeToolTip": "Contracts\\UsersContracts\\AuthRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T15:37:08.559Z"
+              "WhenOpened": "2026-01-21T15:37:08.559Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -136,77 +171,79 @@
               "RelativeDocumentMoniker": "..\\Application\\Functions\\JwtCreator.cs",
               "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Application\\Functions\\JwtCreator.cs",
               "RelativeToolTip": "..\\Application\\Functions\\JwtCreator.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T14:55:35.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Constants.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Constants.cs",
               "RelativeDocumentMoniker": "..\\Entities\\Constants.cs",
               "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Constants.cs",
               "RelativeToolTip": "..\\Entities\\Constants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T13:59:02.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "HashPassword.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Application\\Functions\\HashPassword.cs",
               "RelativeDocumentMoniker": "..\\Application\\Functions\\HashPassword.cs",
               "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Application\\Functions\\HashPassword.cs",
               "RelativeToolTip": "..\\Application\\Functions\\HashPassword.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T13:56:56.781Z"
+              "WhenOpened": "2026-01-21T13:56:56.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebCivAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAIwEQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T11:21:01.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "..\\Application\\Services\\UserService.cs",
               "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Application\\Services\\UserService.cs",
               "RelativeToolTip": "..\\Application\\Services\\UserService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwDsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwD0AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T11:20:52.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Base.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Classes\\Base.cs",
               "RelativeDocumentMoniker": "..\\Entities\\Classes\\Base.cs",
               "ToolTip": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Classes\\Base.cs",
               "RelativeToolTip": "..\\Entities\\Classes\\Base.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wCQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T11:15:16.86Z"
+              "WhenOpened": "2026-01-21T11:15:16.86Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebDbContext\\Repository\\BaseRepository.cs",
               "RelativeDocumentMoniker": "..\\WebDbContext\\Repository\\BaseRepository.cs",
@@ -214,11 +251,12 @@
               "RelativeToolTip": "..\\WebDbContext\\Repository\\BaseRepository.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAwBwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T11:03:39.999Z"
+              "WhenOpened": "2026-01-21T11:03:39.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ModulesRepository.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\WebDbContext\\Repository\\ModulesRepository.cs",
               "RelativeDocumentMoniker": "..\\WebDbContext\\Repository\\ModulesRepository.cs",
@@ -226,11 +264,12 @@
               "RelativeToolTip": "..\\WebDbContext\\Repository\\ModulesRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T11:00:09.699Z"
+              "WhenOpened": "2026-01-21T11:00:09.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\.\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\WebSpaceCivilizacion\\Back-end\\Project\\Entities\\Classes\\Player.cs",
               "RelativeDocumentMoniker": "..\\Entities\\Classes\\Player.cs",
@@ -238,7 +277,8 @@
               "RelativeToolTip": "..\\Entities\\Classes\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T17:41:41.886Z"
+              "WhenOpened": "2026-01-15T17:41:41.886Z",
+              "EditorCaption": ""
             }
           ]
         }
